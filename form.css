@@ -1,0 +1,213 @@
+/* Define Global Variables */
+:root {
+    --bg-color: #000;       /* Black Background */
+    --snd-bg-color: #111;   /* Darker Gray for Form */
+    --text-color: #fff;     /* White Text */
+    --main-color: #45ffca;  /* Neon Green Accent */
+}
+
+/* Full Page Styling */
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Form Container */
+.form {
+    background: rgba(17, 17, 17, 0.85); /* Semi-transparent black */
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    padding: 35px;
+    width: 380px;
+    box-shadow: 0 10px 30px rgba(69, 255, 202, 0.2);
+    display: flex;
+    flex-direction: column;
+    height: 560px; /* Fix height so bottom text stays inside */
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Form Title */
+.form h2 {
+    text-align: center;
+    color: var(--text-color);
+    font-size: 24px;
+
+
+}
+
+/* Labels */
+.form label {
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+/* Input Fields */
+.form input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 8px;
+    background: var(--snd-bg-color);
+    color: var(--text-color);
+    outline: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+/* Input Hover & Focus Effect */
+.form input:focus {
+    background: rgba(69, 255, 202, 0.2);
+    border: 1px solid var(--main-color);
+    transform: scale(1.02);
+}
+
+/* Submit Button */
+.form button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    background: var(--main-color);
+    color: var(--bg-color);
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+/* Button Hover */
+.form button:hover {
+    background: #33d6a5;
+    transform: scale(1.05);
+    box-shadow: #33d6a5;
+}
+
+/* "Already have an account?" (Placed inside the form at the bottom) */
+.form p {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--text-color);
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Login Link */
+.form p a {
+    color: var(--main-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.form p a:hover {
+    text-decoration: underline;
+}
+
+/* login form css */
+
+.form1 {
+    background: rgba(17, 17, 17, 0.85); /* Semi-transparent black */
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    padding: 35px;
+    width: 380px;
+    box-shadow: 0 10px 30px rgba(69, 255, 202, 0.2);
+    display: flex;
+    flex-direction: column;
+    height: 300px; /* Fix height so bottom text stays inside */
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Form Title */
+.form1 h2 {
+    text-align: center;
+    color: var(--text-color);
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Labels */
+.form1 label {
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+/* Input Fields */
+.form1 input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 8px;
+    background: var(--snd-bg-color);
+    color: var(--text-color);
+    outline: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+/* Input Hover & Focus Effect */
+.form1 input:focus {
+    background: rgba(69, 255, 202, 0.2);
+    border: 1px solid var(--main-color);
+    transform: scale(1.02);
+}
+
+/* Submit Button */
+.form1 button {
+    width: 95%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    background: var(--main-color);
+    color: var(--bg-color);
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+/* Button Hover */
+.form1 button:hover {
+    background: #33d6a5;
+    transform: scale(1.05);
+    box-shadow: #33d6a5;
+}
+
+/* "Already have an account?" (Placed inside the form at the bottom) */
+.form1 p {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--text-color);
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Login Link */
+.form1 p a {
+    color: var(--main-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.form1 p a:hover {
+    text-decoration: underline;
+}
